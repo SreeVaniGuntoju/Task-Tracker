@@ -7,14 +7,18 @@ Simple Task Tracker Application
 
 Steps to follow to use application:
 
-Add : To add new task, enter title and description and click on "Add Task" button -> addTask(title,description) method will add new task
+Add : To add new task, enter title and description and click on "Add Task" button 
+-> addTask(title,description) method will add new task
 
-Delete : To delete a specific task ,click on "Delete" button on specified task -> deleteTask(task) will delete task
+Delete : To delete a specific task ,click on "Delete" button on specified task 
+-> deleteTask(task) method will delete task
 
-Status : to mark status as complete, click on complete button(by default it shows as “not complete”) -> taskComplete(taskId) will mark status as complete
+Status : To mark status as complete, click on complete button(by default it shows as “not complete”) 
+-> taskComplete(taskId) method will mark status as complete
 
-Display new task: -> createnewTask(task) will display new task
+Display new task: 
+-> createnewTask(task) method will display new task
 
-validation: to prevent from default submission, alert for input to enter. -> clearForm()
+validation: To prevent from default submission, alert for input to enter. 
 
 Note : Every task has its own unique id that helps to display the tasks in sequence and helps to delete task from the list of tasks
