@@ -1,6 +1,8 @@
 # Task-Tracker
 Simple Task Tracker Application
+
 • The application should allow the user to add, delete, mark tasks as completed or not and view list of tasks. 
+
 • Each task contains title, description, status and task id.
 
 Steps to follow to use application:
