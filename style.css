@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Poppins&display=swap');
+
+body {
+    background-image: linear-gradient(to right, rgba(146, 224, 234, 0.7), rgba(207, 41, 216, 0.4));
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    outline: none;
+}
+
+h3 {
+    text-align: center;
+}
+
+*:focus {
+    outline: none;
+}
+
+header h1 {
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(207, 41, 216, 0.4);
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+section h2 {
+    font-size: 18px;
+}
+
+label {
+    display: flex;
+    font-weight: 600;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.title,
+.description {
+    margin-top: 10px;
+    font-size: 17px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 7px;
+    border: 2px solid rgba(207, 41, 216, 0.4);
+}
+
+button {
+    display: flex;
+    padding: 7px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-image: linear-gradient(to right, rgba(146, 224, 234, 0.7), rgba(207, 41, 216, 0.4));
+    border: 2px solid #222;
+}
+
+button:hover {
+    background-color: rgba(207, 41, 216, 0.4);
+    color: #fff;
+    cursor: pointer;
+}
+
+#task-container {
+    margin: 0 10em 1em 10em;
+    text-align: center;
+}
+
+.taskElement {
+    padding: 1em;
+    margin: 2px;
+}
+
+.taskElement button {
+    display: inline;
+}
+
+.task {
+    background-color: #ffffff81;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 750px) {
+    #task-container {
+        margin: 0;
+    }
+}
